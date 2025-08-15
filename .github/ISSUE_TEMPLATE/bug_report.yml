@@ -48,4 +48,8 @@ body:
     attributes:
       label: Additional context
       description: Screenshots, videos, or sample project
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ Do NOT modify the following fields.
 type: Bug

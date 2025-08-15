@@ -23,4 +23,8 @@ body:
     attributes:
       label: Additional context
       description: Mockups, examples, or similar references
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ Do NOT modify the following fields.
 type: Suggestion
