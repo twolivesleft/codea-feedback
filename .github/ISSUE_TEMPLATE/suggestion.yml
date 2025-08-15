@@ -1,0 +1,39 @@
+name: Suggestion
+description: Propose an enhancement or new idea for Codea
+labels: ["type: suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement!
+  - type: input
+    id: title
+    attributes:
+      label: Short summary
+      description: Clear, concise title of the suggestion
+      placeholder: e.g. Add Swift interop helpers
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem are you trying to solve?
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the solution you'd like
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Mockups, examples, or similar references

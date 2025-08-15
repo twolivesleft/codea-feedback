@@ -1,0 +1,27 @@
+name: 🧭 Feature
+description: Track a planned feature or improvement
+labels: ["type: feature"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: e.g. Metal renderer improvements
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe what this feature covers and why it matters
+      placeholder: High-level overview
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope / Acceptance
+      description: Define what’s in/out and success criteria
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Links to docs, references, or related ideas
