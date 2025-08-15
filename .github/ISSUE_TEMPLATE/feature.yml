@@ -6,19 +6,9 @@ body:
       value: |
         ⚠️ Internal only: This template is for the Codea development team. External users should use the Suggestion template.
   - type: textarea
-    id: summary
+    id: description
     attributes:
-      label: Summary
+      label: Feature description
       description: Describe what this feature covers and why it matters
       placeholder: High-level overview
-  - type: textarea
-    id: scope
-    attributes:
-      label: Scope / Acceptance
-      description: Define what’s in/out and success criteria
-  - type: textarea
-    id: context
-    attributes:
-      label: Context
-      description: Links to docs, references, or related ideas
 type: Feature
