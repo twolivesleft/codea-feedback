@@ -4,7 +4,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        <!-- ISSUE-TYPE: bug -->
         Thanks for taking the time to fill out a bug report!
   - type: input
     id: title
@@ -57,3 +56,4 @@ body:
     attributes:
       label: Additional context
       description: Screenshots, videos, or sample project
+type: Bug

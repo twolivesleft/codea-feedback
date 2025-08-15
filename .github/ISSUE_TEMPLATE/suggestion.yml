@@ -4,7 +4,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        <!-- ISSUE-TYPE: suggestion -->
         Thanks for suggesting an improvement!
   - type: input
     id: title
@@ -37,3 +36,4 @@ body:
     attributes:
       label: Additional context
       description: Mockups, examples, or similar references
+type: Suggestion
