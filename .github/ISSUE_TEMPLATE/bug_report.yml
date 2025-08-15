@@ -1,10 +1,10 @@
 name: Bug report
 description: Report a problem or regression in Codea
-labels: ["type: bug"]
 body:
   - type: markdown
     attributes:
       value: |
+        <!-- ISSUE-TYPE: bug -->
         Thanks for taking the time to fill out a bug report!
   - type: input
     id: title

@@ -1,10 +1,10 @@
 name: Suggestion
 description: Propose an enhancement or new idea for Codea
-labels: ["type: suggestion"]
 body:
   - type: markdown
     attributes:
       value: |
+        <!-- ISSUE-TYPE: suggestion -->
         Thanks for suggesting an improvement!
   - type: input
     id: title

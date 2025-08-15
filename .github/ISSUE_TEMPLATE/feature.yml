@@ -1,7 +1,11 @@
-name: 🧭 Feature
-description: Track a planned feature or improvement
-labels: ["type: feature"]
+name: Feature (internal)
+description: Internal – for the Codea development team only
 body:
+  - type: markdown
+    attributes:
+      value: |
+        <!-- ISSUE-TYPE: feature -->
+        ⚠️ Internal only: This template is for the Codea development team. External users should use the Suggestion template.
   - type: input
     id: title
     attributes:
