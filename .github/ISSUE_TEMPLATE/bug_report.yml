@@ -51,5 +51,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        ⚠️ Do NOT modify the following fields.
+        ⚠️ Do NOT modify the following fields:
 type: Bug
