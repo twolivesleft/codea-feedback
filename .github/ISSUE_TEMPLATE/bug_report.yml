@@ -36,6 +36,10 @@ body:
         • Additional context/logs
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ *Please check all items before submitting your bug report!*
   - type: checkboxes
     id: checklists
     attributes:
