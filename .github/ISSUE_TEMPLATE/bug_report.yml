@@ -36,14 +36,11 @@ body:
         • Additional context/logs
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ⚠️ *Please check all items before submitting your bug report!*
   - type: checkboxes
     id: checklists
     attributes:
       label: Checklist
+      description: ⚠️ **Please check all items before submitting your bug report!**
       options:
         - label: I searched existing issues
         - label: I can reproduce this with the latest version
@@ -55,5 +52,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        ⚠️ *Do NOT modify the following fields*:
+        ⚠️ **Do NOT modify the following fields**:
 type: Bug
