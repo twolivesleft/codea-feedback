@@ -40,7 +40,7 @@ body:
     id: checklists
     attributes:
       label: Checklist
-      description: ⚠️ **Please check all items before submitting your bug report!**
+      description: ⚠️ **Please complete and check all items BEFORE submitting your bug report!**
       options:
         - label: I searched existing issues
         - label: I can reproduce this with the latest version
